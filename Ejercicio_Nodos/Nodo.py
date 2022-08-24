@@ -6,9 +6,9 @@ from typing import ValuesView
 
 class NodoTernario:
 
-    def __init__( self , Values , left= None, center= None rigth= None):
-    self.data = ValuesView
-    self.left = left
-    self.center = center
-    self.rigth = rigth
+    def __init__(self , Values , left= None, center= None, right= None, data = None):
+        self.data = Values
+        self.left = left
+        self.center = center
+        self.rigth = right
 
