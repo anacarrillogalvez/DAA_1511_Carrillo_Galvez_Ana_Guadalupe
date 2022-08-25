@@ -1,4 +1,4 @@
-from Ejercicio_Nodos.Nodo import NodoTernario
+from Ejercicio_Nodos import NodoTernario
 
 
 class Arbol:
